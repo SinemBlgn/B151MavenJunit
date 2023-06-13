@@ -29,7 +29,7 @@ public abstract class TestBase {
     @After
     public void tearDown() throws Exception {
 
- driver.quit();
+ //driver.quit();
     }
     //hard wait (bekleme modu)
     public void bekle(int saniye) {
